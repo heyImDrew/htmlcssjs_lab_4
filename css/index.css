@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buttons {
+    width: 200px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+.funButtonClass, .infoButtonClass {
+    font-size: 18px;
+}
+.ischecked {
+    font-weight: bold;
+    color: crimson;
+}
+select {
+    margin-top: 50px;
+}

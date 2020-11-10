@@ -1,0 +1,9 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+img {
+    height: 1600;
+    width: 800;
+    margin-bottom: 100vh;
+}

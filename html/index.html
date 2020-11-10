@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../js/index.js"></script> 
+    <title>Hello world!</title>
+</head>
+<body>
+    <p>Select animal:</p>
+    <form id="rbs">
+        <label class="rblabel ischecked">lion<input type="radio" name="time" value="lion" class="radiobutton" checked disabled></label> 
+        <label class="rblabel">monkey<input type="radio" name="time" value="monkey" class="radiobutton" disabled></label>
+        <label class="rblabel">raccoon<input type="radio" name="time" value="raccoon" class="radiobutton" disabled></label>
+        <label class="rblabel">tiger<input type="radio" name="time" value="tiger" class="radiobutton" disabled></label>
+    </form>
+    <div class="buttons">
+        <button id="funButton" onclick="onClickFunButton()" class="funButtonClass">Next</button>
+        <button id="information" onclick="onClickInfoButton()" class="infoButtonClass">Picture</button>
+    </div>
+    <select id="add">
+        <option>
+            Cat (no pic)
+        </option>
+        <option>
+            Puppy (no pic)
+        </option>
+        <option>
+            Zebra (no pic)
+        </option>
+    </select>
+    <button id="addButton" onclick="onClickAddButton()">Add</button>
+</body>
+</html>
